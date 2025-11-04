@@ -1,12 +1,31 @@
 ﻿namespace everybody.codes_2025.Day1;
 
-public class Part3() : BasePart(1,3,true)
+public class Part3() : BasePart(1,3,@"Zyririn,Eldeneon,Lorvash,Zyrixmarn,Fyrroth,Zorjoris,Krongonn,Xaralsyron,Orahpyr,Oronmir,Nynylor,Vanalar,Vyrlgnaris,Dreloth,Elargaz,Taleldrin,Urakadir,Nardax,Galgryph,Gavcyth,Elaradar,Kyral,Brythfeth,Ascalnor,Xendzryn,Ylareldrin,Wyrgarath,Kygaz,Karthzar,Ylarilor
+
+L47,R28,L29,R31,L36,R40,L44,R27,L32,R33,L16,R6,L26,R35,L10,R29,L40,R13,L22,R48,L5,R43,L5,R32,L5,R11,L5,R44,L5,R46,L5,R49,L5,R30,L5,R12,L5,R7,L5,R12,L22,R13,L34,R38,L44,R12,L13,R41,L9,R14,L42,R49,L21,R14,L47,R19,L47,R32,L46")
 {
     public override string Run()
     {
-        //var input = Input();
-        //var input = InputChars();
+        var input = Input();
+        
+        var names = input[0].Split(',');
+        var instructions = input[2].Split(',').Select(x => x[0] == 'R' ? int.Parse(x[1..]) : -int.Parse(x[1..]));
 
-        return 0.ToString();
+        var length = names.Length;
+ 
+        foreach (var instruction in instructions)
+        { 
+            var index = 0;
+            index += instruction;
+            while (index  < 0) index += length;
+            while (index >= length) index -= length;
+
+            var a = names[0];
+            var b = names[index];
+            names[0] = b;
+            names[index] = a;
+        }
+
+        return names[0];
     }
 }

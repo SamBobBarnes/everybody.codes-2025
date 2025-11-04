@@ -25,7 +25,7 @@ public abstract class BasePart
 
     protected string[] Input()
     {
-        if (_inputText != null)
+        if (!_test && _inputText != null)
             return _inputText.Replace("\r\n", "\n").Split('\n');
     
         string filename = $"day{_day,2:D2}";
@@ -40,7 +40,7 @@ public abstract class BasePart
 
     protected char[] InputChars()
     {
-        if (_inputText != null)
+        if (!_test && _inputText != null)
             return _inputText.Replace("\r\n", "\n").ToCharArray();
         string filename = $"day{_day,2:D2}";
         if (_test)

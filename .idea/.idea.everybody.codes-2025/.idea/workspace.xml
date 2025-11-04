@@ -7,8 +7,9 @@
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BasePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasePart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Part2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Part3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day01_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day01_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -108,7 +109,7 @@
       <workItem from="1761403069424" duration="11000" />
       <workItem from="1761771039520" duration="1673000" />
       <workItem from="1761772788511" duration="76000" />
-      <workItem from="1762263202640" duration="3050000" />
+      <workItem from="1762263202640" duration="3522000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -150,7 +151,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762264592997</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="d1p2">
+      <option name="closed" value="true" />
+      <created>1762266326913</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1762266326913</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +197,8 @@
     <MESSAGE value="gitignore" />
     <MESSAGE value="fix input files" />
     <MESSAGE value="d1p1 wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="d1p1 wip" />
+    <MESSAGE value="d1p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d1p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -205,19 +215,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day1/Part2.cs</url>
-          <line>18</line>
-          <properties documentPath="B:\Code\Competitions\everybody.codes-2025\Day1\Part2.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="748" />
-            </startOffsets>
-            <endOffsets>
-              <option value="776" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
