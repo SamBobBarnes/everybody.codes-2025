@@ -4,13 +4,16 @@ public abstract class BasePart
 {
     private readonly int _day;
     private readonly bool _test;
+    private readonly string? _inputText;
 
-    protected BasePart(int day,int part, bool test = false): this("", day, part, test){}
+    protected BasePart(int day,int part, bool test = false): this("", day, part,null, test){}
+    protected BasePart(int day,int part, string inputText, bool test = false): this("", day, part, inputText, test){}
 
-    protected BasePart(string title, int day, int part, bool test = false)
+    private BasePart(string title, int day, int part, string? inputText, bool test = false)
     {
         _day = day;
         _test = test;
+        _inputText = inputText;
 
         Console.WriteLine($"Running day {_day} part {part}{(_test ? " example" : "")}");
         if (!string.IsNullOrEmpty(title)) Console.WriteLine(title);
@@ -22,24 +25,30 @@ public abstract class BasePart
 
     protected string[] Input()
     {
+        if (_inputText != null)
+            return _inputText.Replace("\r\n", "\n").Split('\n');
+    
         string filename = $"day{_day,2:D2}";
         if (_test)
         {
             filename += "_test";
         }
+
         filename += ".txt";
-        return Helpers.LoadInputFile(filename).Split("\n");
+        return Helpers.LoadInputFile(filename).Replace("\r\n", "\n").Split('\n');
     }
 
     protected char[] InputChars()
     {
+        if (_inputText != null)
+            return _inputText.Replace("\r\n", "\n").ToCharArray();
         string filename = $"day{_day,2:D2}";
         if (_test)
         {
             filename += "_test";
         }
         filename += ".txt";
-        return Helpers.LoadInputFile(filename).ToCharArray();
+        return Helpers.LoadInputFile(filename).Replace("\r\n","\n").ToCharArray();
     }
 
     public abstract string Run();

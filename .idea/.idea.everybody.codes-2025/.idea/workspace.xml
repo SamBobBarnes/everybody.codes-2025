@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day01_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day1/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Part1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day1_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day1_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasePart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day1/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day1/Part2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
@@ -43,6 +40,7 @@
     <setting file="file://$PROJECT_DIR$/BasePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Point.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://B:/Code/Competitions/everybody.codes-2025/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://B:/Code/Competitions/everybody.codes-2025/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -110,7 +108,7 @@
       <workItem from="1761403069424" duration="11000" />
       <workItem from="1761771039520" duration="1673000" />
       <workItem from="1761772788511" duration="76000" />
-      <workItem from="1762263202640" duration="1113000" />
+      <workItem from="1762263202640" duration="3050000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -136,7 +134,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762263261182</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix input files">
+      <option name="closed" value="true" />
+      <created>1762264509945</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1762264509945</updated>
+    </task>
+    <task id="LOCAL-00005" summary="d1p1 wip">
+      <option name="closed" value="true" />
+      <created>1762264592997</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1762264592997</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,7 +163,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -160,7 +186,9 @@
     <MESSAGE value="parts init" />
     <MESSAGE value="inputs" />
     <MESSAGE value="gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
+    <MESSAGE value="fix input files" />
+    <MESSAGE value="d1p1 wip" />
+    <option name="LAST_COMMIT_MESSAGE" value="d1p1 wip" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -178,17 +206,17 @@
           <option name="timeStamp" value="3" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day1/Part1.cs</url>
-          <line>9</line>
-          <properties documentPath="B:\Code\Competitions\everybody.codes-2025\Day1\Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day1/Part2.cs</url>
+          <line>18</line>
+          <properties documentPath="B:\Code\Competitions\everybody.codes-2025\Day1\Part2.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="208" />
+              <option value="748" />
             </startOffsets>
             <endOffsets>
-              <option value="313" />
+              <option value="776" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
