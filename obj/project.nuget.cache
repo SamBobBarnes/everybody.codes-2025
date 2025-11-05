@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "hLbXrpOwcCQ=",
+  "dgSpecHash": "slGg76vMbUA=",
   "success": true,
-  "projectFilePath": "B:\\Code\\Competitions\\everybody.codes-2025\\everybody.codes-2025.csproj",
+  "projectFilePath": "/Users/sbarnes/Code/everybody.codes-2025/everybody.codes-2025.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\sb17057\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.11\\microsoft.netcore.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\sb17057\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.11\\microsoft.windowsdesktop.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\sb17057\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
-    "C:\\Users\\sb17057\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
+    "/Users/sbarnes/.nuget/packages/microsoft.netcore.app.ref/8.0.20/microsoft.netcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/sbarnes/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.20/microsoft.aspnetcore.app.ref.8.0.20.nupkg.sha512",
+    "/Users/sbarnes/.nuget/packages/microsoft.netcore.app.host.osx-arm64/8.0.20/microsoft.netcore.app.host.osx-arm64.8.0.20.nupkg.sha512"
   ],
   "logs": []
 }
