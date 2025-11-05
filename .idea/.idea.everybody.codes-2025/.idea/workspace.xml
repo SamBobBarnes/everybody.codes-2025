@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day2/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Part2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day02.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day02.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs/day02_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day02_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +21,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Inputs" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -55,7 +58,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.everybody.codes-2025.executor": "Run",
+    ".NET Project.everybody.codes-2025.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -106,7 +109,7 @@
       <workItem from="1761771039520" duration="1673000" />
       <workItem from="1761772788511" duration="76000" />
       <workItem from="1762263202640" duration="3522000" />
-      <workItem from="1762299746325" duration="1604000" />
+      <workItem from="1762299746325" duration="3639000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -164,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762301308073</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="d2p1">
+      <option name="closed" value="true" />
+      <created>1762301364957</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1762301364957</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +232,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day2/Part2.cs</url>
+          <line>38</line>
+          <properties documentPath="$PROJECT_DIR$/Day2/Part2.cs" containingFunctionPresentation="Method 'PerformCycles'">
+            <startOffsets>
+              <option value="1229" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1242" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
