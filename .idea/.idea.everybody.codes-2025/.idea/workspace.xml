@@ -5,20 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day04_p1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day04_p1_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day04_p2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day04_p2_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day04_p3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day04_p3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Part1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day4/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Part2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day4/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day04_p2_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day04_p2_test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +110,7 @@
       <workItem from="1762263202640" duration="3522000" />
       <workItem from="1762299746325" duration="3815000" />
       <workItem from="1762401203593" duration="1940000" />
-      <workItem from="1762469736328" duration="1107000" />
+      <workItem from="1762469736328" duration="1858000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -226,7 +216,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762403134209</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="d4p1">
+      <option name="closed" value="true" />
+      <created>1762470974303</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762470974303</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +269,8 @@
     <MESSAGE value="d3p1" />
     <MESSAGE value="d3p2" />
     <MESSAGE value="d3p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="d3p3" />
+    <MESSAGE value="d4p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="d4p1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
