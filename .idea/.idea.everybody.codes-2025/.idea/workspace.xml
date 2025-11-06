@@ -5,12 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Inputs/day03_p1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day03_p1_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day03_p2_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day03_p3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day2/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day2/Part2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasePart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Part1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Part2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day3/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Part3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Helpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day02_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day02_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day03.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day03_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +51,9 @@
     <setting file="file://$PROJECT_DIR$/BasePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Point.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock://B:/Code/Competitions/everybody.codes-2025/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://B:/Code/Competitions/everybody.codes-2025/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/136421ee49d536b3b39992d54d96374ec41540ffaf93f859e7f2455bd803a/OperatingSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c15184cdf8254e74a8a6ee96bd1b8738d82000/_521ea/PlatformID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcf35795a2a8f57553d92a80a042d6d4e0baebce75f38470b22bdf5eb6b76913/Environment.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -109,7 +121,8 @@
       <workItem from="1761771039520" duration="1673000" />
       <workItem from="1761772788511" duration="76000" />
       <workItem from="1762263202640" duration="3522000" />
-      <workItem from="1762299746325" duration="3639000" />
+      <workItem from="1762299746325" duration="3815000" />
+      <workItem from="1762401203593" duration="836000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -175,7 +188,23 @@
       <option name="project" value="LOCAL" />
       <updated>1762301364957</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="d2p2">
+      <option name="closed" value="true" />
+      <created>1762303429208</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1762303429208</updated>
+    </task>
+    <task id="LOCAL-00010" summary="d2p3">
+      <option name="closed" value="true" />
+      <created>1762303571126</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1762303571126</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +244,9 @@
     <MESSAGE value="d1p1 wip" />
     <MESSAGE value="d1p2" />
     <MESSAGE value="d2p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="d2p1" />
+    <MESSAGE value="d2p2" />
+    <MESSAGE value="d2p3" />
+    <option name="LAST_COMMIT_MESSAGE" value="d2p3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -233,17 +264,17 @@
           <option name="timeStamp" value="3" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day2/Part2.cs</url>
-          <line>38</line>
-          <properties documentPath="$PROJECT_DIR$/Day2/Part2.cs" containingFunctionPresentation="Method 'PerformCycles'">
+          <url>file://$PROJECT_DIR$/Day3/Part1.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/Day3/Part1.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="1229" />
+              <option value="231" />
             </startOffsets>
             <endOffsets>
-              <option value="1242" />
+              <option value="251" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

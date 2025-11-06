@@ -12,10 +12,11 @@ public class Helpers
         {
             File.Create(path).Close();
             File.WriteAllText(path, "Replace me with your input");
+            var isWin = Environment.OSVersion.Platform == PlatformID.Win32NT;
             var processStartInfo = new ProcessStartInfo
             {
                 Arguments = $"add \"{fileName}\"",
-                FileName = "git.exe",
+                FileName = isWin ? "git.exe" : "git",
                 WorkingDirectory = workingDir,
             };
             Process.Start(processStartInfo);
