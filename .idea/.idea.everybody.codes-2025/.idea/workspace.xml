@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day03_p1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day03_p1_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day03_p2_test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day03_p3_test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BasePart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Part1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day03_p2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day3/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Part2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day3/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day3/Part3.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Helpers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Helpers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day03.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day03_test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day03_p2_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day03_p2_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +59,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.everybody.codes-2025.executor": "Debug",
+    ".NET Project.everybody.codes-2025.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -122,7 +111,7 @@
       <workItem from="1761772788511" duration="76000" />
       <workItem from="1762263202640" duration="3522000" />
       <workItem from="1762299746325" duration="3815000" />
-      <workItem from="1762401203593" duration="836000" />
+      <workItem from="1762401203593" duration="1209000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -204,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762303571126</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="d3p1">
+      <option name="closed" value="true" />
+      <created>1762402239553</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1762402239553</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +243,8 @@
     <MESSAGE value="d2p1" />
     <MESSAGE value="d2p2" />
     <MESSAGE value="d2p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="d2p3" />
+    <MESSAGE value="d3p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="d3p1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -263,19 +261,6 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day3/Part1.cs</url>
-          <line>10</line>
-          <properties documentPath="$PROJECT_DIR$/Day3/Part1.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="231" />
-            </startOffsets>
-            <endOffsets>
-              <option value="251" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
