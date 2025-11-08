@@ -5,9 +5,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Day4/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day4/Part3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day05_p1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day05_p1_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day05_p2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day05_p2_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day05_p3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day05_p3_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Part1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Part2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day04_p3_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day04_p3_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day04.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day04_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day05.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day05_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day06.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day06_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day07.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day07_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day08.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day08_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day09_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day10.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day10_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day11.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day11_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day12.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day12_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day13.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day13_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day14.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day14_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day15.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day15_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day16.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day16_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day17.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day17_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day18.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day18_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day19.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day19_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day20.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day20_test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +99,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.everybody.codes-2025.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.completions.CompletionsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.everybody.codes-2025.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="everybody.codes-2025" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -109,7 +154,8 @@
       <workItem from="1762263202640" duration="3522000" />
       <workItem from="1762299746325" duration="3815000" />
       <workItem from="1762401203593" duration="1940000" />
-      <workItem from="1762469736328" duration="2749000" />
+      <workItem from="1762469736328" duration="2834000" />
+      <workItem from="1762563639920" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -231,7 +277,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762471796551</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="d4p3">
+      <option name="closed" value="true" />
+      <created>1762472575011</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1762472575011</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,7 +332,8 @@
     <MESSAGE value="d3p3" />
     <MESSAGE value="d4p1" />
     <MESSAGE value="d4p2" />
-    <option name="LAST_COMMIT_MESSAGE" value="d4p2" />
+    <MESSAGE value="d4p3" />
+    <option name="LAST_COMMIT_MESSAGE" value="d4p3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -295,6 +350,19 @@
           <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="3" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Day5/Part1.cs</url>
+          <line>13</line>
+          <properties documentPath="$PROJECT_DIR$/Day5/Part1.cs" containingFunctionPresentation="Method 'Run'">
+            <startOffsets>
+              <option value="313" />
+            </startOffsets>
+            <endOffsets>
+              <option value="335" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
