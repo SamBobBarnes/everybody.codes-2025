@@ -94,12 +94,12 @@ public class Part1() : BasePart(5,1)
             var value = new StringBuilder();
             foreach (var rib in _ribs)
             {
-                sb.AppendLine(rib.ToString());
-                sb.AppendLine("  |  ");
+                // sb.AppendLine(rib.ToString());
+                // sb.AppendLine("  |  ");
                 value.Append(rib.Spine);
             }
 
-            sb.AppendLine();
+            // sb.AppendLine();
             sb.AppendLine(value.ToString());
 
             return sb.ToString();
