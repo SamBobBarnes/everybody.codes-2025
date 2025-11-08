@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day5/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Part2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day5/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day5/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inputs/day05_p2_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day05_p2_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day05_p3_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day05_p3_test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/everybody.codes-2025.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/everybody.codes-2025.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -41,7 +42,9 @@
     <setting file="file://$PROJECT_DIR$/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Point.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/136421ee49d536b3b39992d54d96374ec41540ffaf93f859e7f2455bd803a/OperatingSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6780d13016c376c4491c5618b257d84da7eacf747ed2719783e775546b79b/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c15184cdf8254e74a8a6ee96bd1b8738d82000/_521ea/PlatformID.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c15184cdf8254e74a8a6ee96bd1b8738d82000/_825b7/IComparer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcf35795a2a8f57553d92a80a042d6d4e0baebce75f38470b22bdf5eb6b76913/Environment.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
@@ -59,7 +62,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.everybody.codes-2025.executor": "Run",
+    ".NET Project.everybody.codes-2025.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -113,7 +116,7 @@
       <workItem from="1762299746325" duration="3815000" />
       <workItem from="1762401203593" duration="1940000" />
       <workItem from="1762469736328" duration="2834000" />
-      <workItem from="1762563639920" duration="3036000" />
+      <workItem from="1762563639920" duration="4489000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -251,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762565949095</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="d5p2">
+      <option name="closed" value="true" />
+      <created>1762566787795</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1762566787795</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -300,7 +311,8 @@
     <MESSAGE value="d4p2" />
     <MESSAGE value="d4p3" />
     <MESSAGE value="d5p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="d5p1" />
+    <MESSAGE value="d5p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d5p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -318,17 +330,17 @@
           <option name="timeStamp" value="3" />
         </breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day5/Part1.cs</url>
-          <line>13</line>
-          <properties documentPath="$PROJECT_DIR$/Day5/Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day5/Part3.cs</url>
+          <line>22</line>
+          <properties documentPath="$PROJECT_DIR$/Day5/Part3.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="308" />
+              <option value="621" />
             </startOffsets>
             <endOffsets>
-              <option value="330" />
+              <option value="641" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="4" />
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
