@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day06_p2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day06_p2_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day06_p3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day06_p3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day6/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Part2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day6/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day6/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
@@ -43,6 +43,7 @@
     <setting file="mock://B:/Code/Competitions/everybody.codes-2025/Day6/Part2.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Point.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://B:/Code/Competitions/everybody.codes-2025/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -61,7 +62,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.everybody.codes-2025.executor": "Debug",
+    ".NET Project.everybody.codes-2025.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -269,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762870228035</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="d6p2">
+      <option name="closed" value="true" />
+      <created>1762870675470</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1762870675470</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -320,7 +329,8 @@
     <MESSAGE value="d5p1" />
     <MESSAGE value="d5p2" />
     <MESSAGE value="d6p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="d6p1" />
+    <MESSAGE value="d6p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d6p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -349,32 +359,6 @@
             </endOffsets>
           </properties>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day6/Part2.cs</url>
-          <line>23</line>
-          <properties documentPath="B:\Code\Competitions\everybody.codes-2025\Day6\Part2.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="475" />
-            </startOffsets>
-            <endOffsets>
-              <option value="490" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day6/Part2.cs</url>
-          <line>42</line>
-          <properties documentPath="B:\Code\Competitions\everybody.codes-2025\Day6\Part2.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="985" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1042" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
