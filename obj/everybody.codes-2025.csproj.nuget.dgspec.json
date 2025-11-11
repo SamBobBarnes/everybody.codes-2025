@@ -1,27 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sbarnes/Code/everybody.codes-2025/everybody.codes-2025.csproj": {}
+    "B:\\Code\\Competitions\\everybody.codes-2025\\everybody.codes-2025.csproj": {}
   },
   "projects": {
-    "/Users/sbarnes/Code/everybody.codes-2025/everybody.codes-2025.csproj": {
+    "B:\\Code\\Competitions\\everybody.codes-2025\\everybody.codes-2025.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sbarnes/Code/everybody.codes-2025/everybody.codes-2025.csproj",
+        "projectUniqueName": "B:\\Code\\Competitions\\everybody.codes-2025\\everybody.codes-2025.csproj",
         "projectName": "everybody.codes-2025",
-        "projectPath": "/Users/sbarnes/Code/everybody.codes-2025/everybody.codes-2025.csproj",
-        "packagesPath": "/Users/sbarnes/.nuget/packages/",
-        "outputPath": "/Users/sbarnes/Code/everybody.codes-2025/obj/",
+        "projectPath": "B:\\Code\\Competitions\\everybody.codes-2025\\everybody.codes-2025.csproj",
+        "packagesPath": "C:\\Users\\sb17057\\.nuget\\packages\\",
+        "outputPath": "B:\\Code\\Competitions\\everybody.codes-2025\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sbarnes/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\sb17057\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vermeer-corp/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -37,9 +37,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
+          "auditMode": "all"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -58,15 +58,19 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
+              "version": "[8.0.11, 8.0.11]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.osx-arm64",
-              "version": "[8.0.20, 8.0.20]"
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.11, 8.0.11]"
             },
             {
               "name": "Microsoft.NETCore.App.Ref",
-              "version": "[8.0.20, 8.0.20]"
+              "version": "[8.0.11, 8.0.11]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.11, 8.0.11]"
             }
           ],
           "frameworkReferences": {
@@ -74,7 +78,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\sb17057\\.dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
