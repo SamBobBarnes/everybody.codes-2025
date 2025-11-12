@@ -1,12 +1,43 @@
 ﻿namespace everybody.codes_2025.Day7;
 
-public class Part2() : BasePart(7,2,true)
+public class Part2() : BasePart(7,2)
 {
     public override string Run()
     {
-        //var input = Input();
-        //var input = InputChars();
+        var input = Input();
 
-        return 0.ToString();
+        var names = input[0].Split(',');
+
+        var rules = input[2..].Select(x =>
+        {
+            var initial = x[0];
+            var next = x[4..].Split(',').Select(y=>y[0]).ToList();
+
+            return (Current: initial, Next: next);
+        }).ToDictionary();
+
+        var validNames = new List<int>();
+
+        for(int j = 0; j < names.Length; j++)
+        {
+            var name = names[j];
+            var valid = true;
+            for (int i = 0; i < name.Length - 1; i++)
+            {
+                var rule = rules[name[i]];
+                if (!rule.Contains(name[i + 1]))
+                {
+                    valid = false;
+                    break;
+                }
+            }
+
+            if (valid)
+            {
+                validNames.Add(j+1);
+            }
+        }
+
+        return validNames.Sum().ToString();
     }
 }
