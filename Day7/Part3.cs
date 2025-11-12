@@ -82,7 +82,7 @@ public class Part3() : BasePart(7,3)
     {
         memoRules[start].Add(current);
         var length = current.Length;
-        if (length == 9) return;
+        if (length == 10) return;
 
         rules.TryGetValue(current[length - 1], out var currentRule);
         if (currentRule == null) return;
