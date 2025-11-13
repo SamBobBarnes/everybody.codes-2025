@@ -1,5 +1,5 @@
 ﻿
-using everybody.codes_2025.Day8;
+using everybody.codes_2025.Day9;
 
 new Part1();
 new Part2();
