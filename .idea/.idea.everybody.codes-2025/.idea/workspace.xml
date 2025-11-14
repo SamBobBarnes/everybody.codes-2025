@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day09_p2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day09_p2_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day09_p3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day9/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Part2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day9/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day9/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
@@ -22,7 +21,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Inputs" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -62,7 +61,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.everybody.codes-2025.executor": "Debug",
+    ".NET Project.everybody.codes-2025.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -342,7 +341,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763076918028</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="d9p2">
+      <option name="closed" value="true" />
+      <created>1763136938918</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1763136938918</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +382,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="gitignore" />
     <MESSAGE value="fix input files" />
     <MESSAGE value="d1p1 wip" />
     <MESSAGE value="d1p2" />
@@ -400,7 +406,8 @@
     <MESSAGE value="d8p2" />
     <MESSAGE value="d8p3" />
     <MESSAGE value="d9p1" />
-    <option name="LAST_COMMIT_MESSAGE" value="d9p1" />
+    <MESSAGE value="d9p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d9p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -431,17 +438,17 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day9/Part2.cs</url>
-          <line>26</line>
-          <properties documentPath="$PROJECT_DIR$/Day9/Part2.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day9/Part3.cs</url>
+          <line>49</line>
+          <properties documentPath="$PROJECT_DIR$/Day9/Part3.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="779" />
+              <option value="1426" />
             </startOffsets>
             <endOffsets>
-              <option value="793" />
+              <option value="1459" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="31" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
