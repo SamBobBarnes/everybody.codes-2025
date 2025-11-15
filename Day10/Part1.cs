@@ -59,7 +59,7 @@ public class Part1() : BasePart(10,1)
                 else row += ".";
             }
 
-            Console.WriteLine(row);
+            // Console.WriteLine(row);
         }
 
         return total.ToString();
