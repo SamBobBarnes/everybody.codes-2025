@@ -1,6 +1,8 @@
-﻿namespace everybody.codes_2025.Day10;
+﻿using System.Text;
 
-public class Part2() : BasePart(10,2,true)
+namespace everybody.codes_2025.Day10;
+
+public class Part2() : BasePart(10,2)
 {
     public override string Run()
     {
@@ -10,37 +12,57 @@ public class Part2() : BasePart(10,2,true)
         var height = input.Count;
 
         Point? dragon = null;
+        List<bool[]> sheep = new List<bool[]>();
+        List<bool[]> bushes = new List<bool[]>();
 
-        for (int x = 0; x < width; x++)
+        for (int y = 0; y < height; y++)
         {
-            for (int y = 0; y < height; y++)
+            var sheepRow = new bool[width];
+            var bushRow = new bool[width];
+            for (int x = 0; x < width; x++)
             {
                 if (input[y][x] == 'D')
                     dragon = new(x, y);
+                if (input[y][x] == 'S')
+                    sheepRow[x] = true;
+                if (input[y][x] == '#')
+                    bushRow[x] = true;
             }
+
+            sheep.Add(sheepRow);
+            bushes.Add(bushRow);
         }
 
-        var moves = 4;
+        // Console.WriteLine(Print(sheep,'S'));
+        // Console.WriteLine(Print(bushes,'#'));
+
+        var moves = 20;
 
         var q = new Queue<(Point p, int moves)>();
         q.Enqueue((dragon!,0));
 
-        var visited = new List<Point>();
         var total = 0;
-        var points = new List<Point>();
+        var currentRound = 1;
+        var currentRoundDragons = new List<Point>();
 
         while (q.Count > 0)
         {
             var current = q.Dequeue();
 
-            if (visited.Contains(current.p)) continue;
-            visited.Add(current.p);
+            if (currentRoundDragons.Contains(current.p)) continue;
+
+            if (current.moves > currentRound)
+            {
+                SheepsTurn(sheep, width, bushes, ref currentRoundDragons, ref total, ref currentRound);
+            }
+
+            currentRoundDragons.Add(current.p);
 
             var p = current.p;
-            if (input[p.Y][p.X] == 'S')
+            if (sheep[p.Y][p.X] && !bushes[p.Y][p.X])
             {
+                sheep[p.Y][p.X] = false;
                 total++;
-                points.Add(current.p);
             }
 
             if (current.moves == moves) continue;
@@ -49,20 +71,48 @@ public class Part2() : BasePart(10,2,true)
                 q.Enqueue((next,current.moves+1));
         }
 
+        SheepsTurn(sheep, width, bushes, ref currentRoundDragons, ref total, ref currentRound);
+
+        return total.ToString();
+    }
+
+    private void SheepsTurn(List<bool[]> sheep, int width, List<bool[]> bushes, ref List<Point> currentRoundDragons, ref int total,
+        ref int currentRound)
+    {
+        sheep.Insert(0,new bool[width]);
+
+        foreach (var d in currentRoundDragons)
+        {
+            if (sheep[d.Y][d.X] && !bushes[d.Y][d.X])
+            {
+                sheep[d.Y][d.X] = false;
+                total++;
+            }
+        }
+
+        currentRound++;
+        currentRoundDragons = new List<Point>();
+    }
+
+    private string Print(List<bool[]> input, char item)
+    {
+        var height = input.Count;
+        var width = input[0].Length;
+        var sb = new StringBuilder();
         for(int y = 0; y < height; y++)
         {
             var row = "";
             for (int x = 0; x < width; x++)
             {
-                if (points.Contains(new(x, y)))
-                    row += "X";
+                if (input[y][x])
+                    row += item;
                 else row += ".";
             }
 
-            Console.WriteLine(row);
+            sb.AppendLine(row);
         }
 
-        return total.ToString();
+        return sb.ToString();
     }
 
     private List<Point> GetDragonMoves(Point current, int width, int height)
