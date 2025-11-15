@@ -19,4 +19,9 @@ public class Point(int x, int y)
     {
         return HashCode.Combine(X, Y);
     }
+
+    public override string ToString()
+    {
+        return $"{x},{y}";
+    }
 }
