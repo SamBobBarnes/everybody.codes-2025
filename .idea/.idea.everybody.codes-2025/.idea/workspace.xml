@@ -6,9 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/Part2.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day10/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day10/Part3.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day10_p3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day10_p3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Inputs/day10_p3_test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs/day10_p3_test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +60,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    ".NET Project.everybody.codes-2025.executor": "Debug",
+    ".NET Project.everybody.codes-2025.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -119,7 +120,7 @@
       <workItem from="1762401203593" duration="1940000" />
       <workItem from="1762469736328" duration="2834000" />
       <workItem from="1762563639920" duration="4489000" />
-      <workItem from="1763165629457" duration="5839000" />
+      <workItem from="1763165629457" duration="7820000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -385,7 +386,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763235595738</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="d10p2">
+      <option name="closed" value="true" />
+      <created>1763237282743</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1763237282743</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +427,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="d2p2" />
     <MESSAGE value="d2p3" />
     <MESSAGE value="d3p1" />
     <MESSAGE value="d3p2" />
@@ -443,7 +451,8 @@
     <MESSAGE value="d10 init" />
     <MESSAGE value="d10p1" />
     <MESSAGE value="wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="wip" />
+    <MESSAGE value="d10p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d10p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -491,10 +500,10 @@
           <line>75</line>
           <properties documentPath="$PROJECT_DIR$/Day10/Part2.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="2080" />
+              <option value="2086" />
             </startOffsets>
             <endOffsets>
-              <option value="2104" />
+              <option value="2110" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="46" />
