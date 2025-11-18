@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("everybody.codes-2025")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e3739388891f0e0c57c869ab45fb2d0ee4521b9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8b198d07cc1e38634835dacb78deb43a0ed9bf6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("everybody.codes-2025")]
 [assembly: System.Reflection.AssemblyTitleAttribute("everybody.codes-2025")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
