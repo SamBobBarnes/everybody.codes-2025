@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day11_p1_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day11_p3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day11_p3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Part1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day11/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -122,7 +122,7 @@
       <workItem from="1762401203593" duration="1940000" />
       <workItem from="1762469736328" duration="2834000" />
       <workItem from="1762563639920" duration="4489000" />
-      <workItem from="1763165629457" duration="9598000" />
+      <workItem from="1763165629457" duration="10535000" />
     </task>
     <task id="LOCAL-00001" summary="parts init">
       <option name="closed" value="true" />
@@ -404,7 +404,23 @@
       <option name="project" value="LOCAL" />
       <updated>1763423569387</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="d11p1">
+      <option name="closed" value="true" />
+      <created>1763428984989</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1763428984989</updated>
+    </task>
+    <task id="LOCAL-00037" summary="d11p2">
+      <option name="closed" value="true" />
+      <created>1763429171789</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1763429171789</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -437,8 +453,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="d3p1" />
-    <MESSAGE value="d3p2" />
     <MESSAGE value="d3p3" />
     <MESSAGE value="d4p1" />
     <MESSAGE value="d4p2" />
@@ -462,7 +476,9 @@
     <MESSAGE value="wip" />
     <MESSAGE value="d10p2" />
     <MESSAGE value="d10p3 wip" />
-    <option name="LAST_COMMIT_MESSAGE" value="d10p3 wip" />
+    <MESSAGE value="d11p1" />
+    <MESSAGE value="d11p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d11p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -519,17 +535,17 @@
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day11/Part1.cs</url>
-          <line>47</line>
-          <properties documentPath="$PROJECT_DIR$/Day11/Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day11/Part3.cs</url>
+          <line>10</line>
+          <properties documentPath="$PROJECT_DIR$/Day11/Part3.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="1204" />
+              <option value="254" />
             </startOffsets>
             <endOffsets>
-              <option value="1249" />
+              <option value="290" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="47" />
+          <option name="timeStamp" value="48" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
