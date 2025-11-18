@@ -33,9 +33,6 @@ public class Part3() : BasePart(10,3,true)
             bushes.Add(bushRow);
         }
 
-        // Console.WriteLine(Print(sheep,'S'));
-        // Console.WriteLine(Print(bushes,'#'));
-
         var moves = 20;
 
         var q = new Queue<(Point p, int moves)>();
@@ -169,4 +166,6 @@ public class Part3() : BasePart(10,3,true)
 
         return points;
     }
+
+    public record BoardState(Point Dragon, List<Point> Sheep);
 }
