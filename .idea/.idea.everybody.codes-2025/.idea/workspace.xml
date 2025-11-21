@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day14_p1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day14_p1_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day14_p3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day14_p3_test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day14/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Part1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day14/Part3.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day14/Part3.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
     </list>
@@ -42,12 +41,9 @@
     <setting file="file://$PROJECT_DIR$/BasePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Helpers.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Point.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/136421ee49d536b3b39992d54d96374ec41540ffaf93f859e7f2455bd803a/OperatingSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6780d13016c376c4491c5618b257d84da7eacf747ed2719783e775546b79b/ThrowHelper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c15184cdf8254e74a8a6ee96bd1b8738d82000/_521ea/PlatformID.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c15184cdf8254e74a8a6ee96bd1b8738d82000/_825b7/IComparer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/dcf35795a2a8f57553d92a80a042d6d4e0baebce75f38470b22bdf5eb6b76913/Environment.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/de9b1fdc71aee24ccdeb44f9118da693da715212235e592eb58c97bf24d6175b/Range.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://B:/Code/Competitions/everybody.codes-2025/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://diff.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -62,28 +58,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;.NET Project.everybody.codes-2025.executor&quot;: &quot;Debug&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.completions.CompletionsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.everybody.codes-2025.executor": "Debug",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.completions.CompletionsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;prototext&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "prototext"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="everybody.codes-2025" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -460,7 +456,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763603855074</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="d14p2">
+      <option name="closed" value="true" />
+      <created>1763736033055</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1763736033055</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +497,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="d5p2" />
     <MESSAGE value="d6p1" />
     <MESSAGE value="d6p2" />
     <MESSAGE value="d7p1" />
@@ -518,7 +521,8 @@
     <MESSAGE value="d13p1" />
     <MESSAGE value="d13p2" />
     <MESSAGE value="d13p3" />
-    <option name="LAST_COMMIT_MESSAGE" value="d13p3" />
+    <MESSAGE value="d14p2" />
+    <option name="LAST_COMMIT_MESSAGE" value="d14p2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -620,30 +624,17 @@
           <option name="timeStamp" value="68" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day14/Part1.cs</url>
-          <line>25</line>
-          <properties documentPath="$PROJECT_DIR$/Day14/Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day14/Part3.cs</url>
+          <line>82</line>
+          <properties documentPath="B:\Code\Competitions\everybody.codes-2025\Day14\Part3.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="633" />
+              <option value="2827" />
             </startOffsets>
             <endOffsets>
-              <option value="672" />
+              <option value="2851" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="69" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day14/Part1.cs</url>
-          <line>39</line>
-          <properties documentPath="$PROJECT_DIR$/Day14/Part1.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="1193" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1242" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="70" />
+          <option name="timeStamp" value="77" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
