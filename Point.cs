@@ -25,3 +25,11 @@ public class Point(int x, int y)
         return $"{x},{y}";
     }
 }
+
+public enum Direction
+{
+    Up,
+    Down,
+    Left,
+    Right
+}
