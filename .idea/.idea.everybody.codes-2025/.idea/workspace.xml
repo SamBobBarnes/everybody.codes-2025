@@ -5,26 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="462d7ec7-2053-466c-aa6f-a3ca0b389619" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Inputs/day15_p1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inputs/day15_p1_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Inputs/day15_p2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.everybody.codes-2025/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day15/Part1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Part1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day15/Part2.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Day15/Part2.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Inputs" beforeDir="false" afterPath="$PROJECT_DIR$/Inputs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Point.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Point.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/everybody.codes-2025.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/everybody.codes-2025.sln.DotSettings.user" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.GlobalUsings.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.GlobalUsings.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net8.0/everybody.codes-2025.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/everybody.codes-2025.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/everybody.codes-2025.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/everybody.codes-2025.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/everybody.codes-2025.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -483,7 +469,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763736033055</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="d15p1">
+      <option name="closed" value="true" />
+      <created>1763850242302</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1763850242302</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +510,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="d6p1" />
     <MESSAGE value="d6p2" />
     <MESSAGE value="d7p1" />
     <MESSAGE value="d7p2" />
@@ -541,7 +534,8 @@
     <MESSAGE value="d13p2" />
     <MESSAGE value="d13p3" />
     <MESSAGE value="d14p2" />
-    <option name="LAST_COMMIT_MESSAGE" value="d14p2" />
+    <MESSAGE value="d15p1" />
+    <option name="LAST_COMMIT_MESSAGE" value="d15p1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -649,56 +643,43 @@
           <option name="timeStamp" value="77" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day15/Part1.cs</url>
-          <line>137</line>
-          <properties documentPath="$PROJECT_DIR$/Day15/Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day15/Part2.cs</url>
+          <line>119</line>
+          <properties documentPath="$PROJECT_DIR$/Day15/Part2.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="5055" />
+              <option value="4256" />
             </startOffsets>
             <endOffsets>
-              <option value="5079" />
+              <option value="4279" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="83" />
+          <option name="timeStamp" value="91" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day15/Part1.cs</url>
-          <line>110</line>
-          <properties documentPath="$PROJECT_DIR$/Day15/Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day15/Part2.cs</url>
+          <line>146</line>
+          <properties documentPath="$PROJECT_DIR$/Day15/Part2.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="3965" />
+              <option value="5287" />
             </startOffsets>
             <endOffsets>
-              <option value="3984" />
+              <option value="5311" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="87" />
+          <option name="timeStamp" value="96" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day15/Part1.cs</url>
-          <line>107</line>
-          <properties documentPath="$PROJECT_DIR$/Day15/Part1.cs" containingFunctionPresentation="Method 'Run'">
+          <url>file://$PROJECT_DIR$/Day15/Part2.cs</url>
+          <line>105</line>
+          <properties documentPath="$PROJECT_DIR$/Day15/Part2.cs" containingFunctionPresentation="Method 'Run'">
             <startOffsets>
-              <option value="3877" />
+              <option value="3804" />
             </startOffsets>
             <endOffsets>
-              <option value="3897" />
+              <option value="3891" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Day15/Part1.cs</url>
-          <line>108</line>
-          <properties documentPath="$PROJECT_DIR$/Day15/Part1.cs" containingFunctionPresentation="Method 'Run'">
-            <startOffsets>
-              <option value="3910" />
-            </startOffsets>
-            <endOffsets>
-              <option value="3934" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="89" />
+          <option name="timeStamp" value="99" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
