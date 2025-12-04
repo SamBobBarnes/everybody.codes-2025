@@ -13,7 +13,7 @@ public class Part1() : BasePart(16,1)
             for (int i = num-1; i < wallLength; i += num)
                 wall[i]++;
         
-        // Print(wall);
+        Print(wall);
 
         return wall.Sum().ToString();
     }
