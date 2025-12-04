@@ -23,36 +23,4 @@ public class Part2() : BasePart(16,2)
 
         return input.Aggregate((a, b) => a*b).ToString();
     }
-
-    private void Print(int[] wall)
-    {
-        var result = "";
-        var max = wall.Max();
-        var wallCols = wall.Clone() as int[];
-        for (int y = 0; y < max; y++)
-        {
-            var row = "";
-            for (int i = 0; i < wallCols.Length; i++)
-            {
-                if (wallCols[i] > 0) row += "#";
-                else row += " ";
-                wallCols[i]--;
-            }
-
-            row += "\n";
-            result = row + result;
-        }
-        Console.WriteLine(result);
-    }
-
-    private int GCF(int a, int b)
-    {
-        while (b != 0)
-        {
-            var remainder = a % b;
-            a = b;
-            b = remainder;
-        }
-        return a;
-    }
 }
