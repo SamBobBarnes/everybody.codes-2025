@@ -1,4 +1,6 @@
-﻿namespace everybody.codes_2025;
+﻿using System.Diagnostics;
+
+namespace everybody.codes_2025;
 
 public abstract class BasePart
 {
@@ -21,8 +23,14 @@ public abstract class BasePart
         if (!string.IsNullOrEmpty(title)) Console.WriteLine(title);
         // ReSharper disable once VirtualMemberCallInConstructor
         Console.WriteLine();
-        Console.WriteLine(Run());
-        Console.WriteLine();
+        var timer = new Stopwatch();
+        timer.Start();
+        var result = Run();
+        timer.Stop();
+        var time = timer.ElapsedMilliseconds;
+        Console.WriteLine(time < 1000
+            ? $"{result}\n\nCompleted in {time} ms\n"
+            : $"{result}\n\nCompleted in {time / 1000.0:F2} s\n");
     }
 
     protected string[] Input()
