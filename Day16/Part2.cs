@@ -1,53 +1,25 @@
 ﻿namespace everybody.codes_2025.Day16;
 
-public class Part2() : BasePart(16,2,true)
+public class Part2() : BasePart(16,2)
 {
     public override string Run()
     {
         var wall = Input()[0].Split(",").Select(int.Parse).ToArray();
 
-        var input = new List<int>();
-        
-        var tempWall = new bool[wall.Length];
+        var input = new List<long>();
 
-        for (int i = 1; i <= wall.Max(); i++)
+        for (int num = 1; num <= wall.Length; num++)
         {
-            for (int j = 0; j < wall.Length; j++)
-            {
-                if (wall[j] >= i) tempWall[j] = true;            
-            }
+            if (wall[num - 1] == 0) continue;
 
-            while (tempWall.Sum(x => x ? 1 : 0) > 0) // finish wall
+            input.Add(num);
+            for(int i = num-1; i < wall.Length; i+=num)
             {
-                var max = 0;
-                var maxNum = 0;
-                for (int j = wall.Length; j > 0; j--) // foreach num upto length of wall
-                {
-                    var localMax = 0;
-                    for (int k = j - 1; k > wall.Length; k += j) // foreach column 
-                        if (tempWall[k])
-                            localMax++;
-                        else
-                            break;
-                    if (localMax > max)
-                    {
-                        max = localMax;
-                        maxNum = j;
-                    }
-                }
-
-                // max found
-                if(maxNum > 0)
-                {
-                    input.Add(maxNum);
-                    for (int k = maxNum - 1; k < wall.Length; k += maxNum)
-                        tempWall[k] = false; // remove blocks of this num and continue
-                }            
+                wall[i]--;
             }
         }
         
-        
-        Print(wall);
+        // Print(wall);
 
         return input.Aggregate((a, b) => a*b).ToString();
     }
