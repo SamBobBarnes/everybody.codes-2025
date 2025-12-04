@@ -4,8 +4,7 @@ public class Part1() : BasePart(19,1,true)
 {
     public override string Run()
     {
-        //var input = Input();
-        //var input = InputChars();
+        var input = Input();
 
         return 0.ToString();
     }
